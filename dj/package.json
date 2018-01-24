@@ -1,0 +1,15 @@
+{
+  "name": "lol",
+  "version": "1.0.0",
+  "description": "这是道聚城",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "道聚城",
+    "lol"
+  ],
+  "author": "",
+  "license": "ISC"
+}
