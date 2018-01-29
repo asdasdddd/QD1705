@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/head-min.css" />
+    <link rel="stylesheet" href="css/css-min.css" />
+    <link rel="stylesheet" href="css/foot-min.css" />
+    <link rel="stylesheet" href="css/sc-min.css" />
+    <script type="text/javascript" src="js/require.js" async="true" defer data-main="js/main"></script>
+</head>
+<body>
+    <div style="background: url('../image/bg-head.jpg') no-repeat;" class="pageWrap">
+
+        <!-- 返回顶部 -->
+        <div class="fixednav">
+                <a href="#top" id="top">
+                    <i class="bg_sp btn_top"></i>返回顶部
+                </a>
+                <a href="" target = "_blank">反馈</a>
+        </div>
+        <!-- 头部 logo 主要 次要 ul -->
+        <div style="height:251px;background: url('')" class="layout contwrap">
+            <div class="mainnav">
+                <ul class="left">
+                    <li><a href="">手机版</a></li>
+                    <li><a href="">游戏币交易</a></li>
+                    <li><a href="">Q币充值</a></li>
+                    <li><a href="">心悦游戏家</a></li>
+                </ul>
+                <ul class="right">
+                    <li>您还未登录 , 请<a href="javascript:;" id="btn_topbar_unlogin_login">登录</a></li>
+                    <li><a href="">我的订单</a></li>
+                    <li><a href="">个人中心</a></li>
+                    <li><a href="">官方论坛<span></span></a></li>
+                    <li><a href="">帮助中心</a></li>
+                    <li id="gameLi"><a href="" >游戏导航<span></span></a>
+                        <div id="gameLinone">
+                            <ul class="ul1">
+                                <li>角色扮演<span>(20)</span></li>
+                                <li><a href="">御龙在天经典版</a></li>
+                                <li><a href="">刀剑2</a></li>
+                                <li><a href="">幻想世界</a></li>
+                                <li><a href="">怪物猎人OL</a></li>
+                                <li><a href="">寻仙</a></li>
+                                <li><a href="">QQ仙侠传</a></li>
+                                <li><a href="">天涯明月刀</a></li>
+                                <li><a href="">斗战神</a></li>
+                                <li><a href="">地下城与勇士</a></li>
+                                <li><a href="">上古世纪</a></li>
+                                <li><a href="">轩辕传奇</a></li>
+                                <li><a href="">QQ三国</a></li>
+                                <li><a href="">QQ剑灵</a></li>
+                                <li><a href="">剑灵</a></li>
+                                <li><a href="">御龙在天</a></li>
+                                <li><a href="">疾风之刃</a></li>
+                                <li><a href="">天堂2</a></li>
+                                <li><a href="">自由幻想</a></li>
+                                <li><a href="">QQ幻想</a></li>
+                                <li><a href="">天堂</a></li>
+                                <li><a href=""> 1</a></li>
+                            </ul>
+                            <ul class="ul2">
+                                <li>竞技游戏<span>(10)</span></li>
+                                <li><a href="">使命召唤</a></li>
+                                <li><a href="">FIFA Online3</a></li>
+                                <li><a href="">英雄联盟</a></li>
+                                <li><a href="">战争雷霆</a></li>
+                                <li><a href="">穿越火线</a></li>
+                                <li><a href="">逆战</a></li>
+                                <li><a href="">NBA2KOL</a></li>
+                                <li><a href="">枪神纪</a></li>
+                                <li><a href="">战地之王</a></li>
+                                <li><a href="">极品飞车OL</a></li>
+                            </ul>
+                            <ul class="ul3">
+                                <li>休闲游戏<span>(4)</span></li>
+                                <li><a href="">炫舞时代</a></li>
+                                <li><a href="">QQ炫舞</a></li>
+                                <li><a href="">QQ音速</a></li>
+                                <li><a href="">QQ飞车</a></li>
+                            </ul>
+                            <ul class="ul4">
+                                <li>网页游戏<span>(8)</span></li>
+                                <li><a href="">英雄之刃</a></li>
+                                <li><a href="">火影忍者OL</a></li>
+                                <li><a href="">夜店之王</a></li>
+                                <li><a href="">部落守卫战</a></li>
+                                <li><a href="">Q宠大乐斗</a></li>
+                                <li><a href="">烽火战国</a></li>
+                                <li><a href="">七雄争霸</a></li>
+                                <li><a href="">猎鱼达人3D</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="searchbox">
+                <div class="logobox">
+                    <a href="">道聚城</a>
+                </div>
+                <div class="navico">
+                    <a id="navico_btn">搜索</a>
+                    <input id="navico_input" value="输入道具并进行搜索" attr_default="输入道具进行搜索" type="text">
+                </div>
+                <div class="logogame">
+                    <a href="" target="_blank" title="英雄联盟"></a>
+                </div>
+            </div>
+            <div class="mainmenu">
+                <ul>
+                    <li class="nonehover"><a href="index.html">首页</a></li>
+                    <li><a href="">商品列表</a></li>
+                    <li><a href="">活动专业</a></li>
+                    <li><a href="">限时折扣</a></li>
+                    <li><a href="">聚豆乐园</a></li>
+                    <li><a href="">周边商城</a></li>
+                    <li><a href="">个人中心</a></li>
+                </ul>
+                <div class="shoppingcar">
+                    <a href="">
+                        <i id="shoppingCount">（0）</i>
+                        <s></s>
+                        购物车
+                    </a>
+                </div>
+            </div>
+            <div class="sonmenu">
+                <ul style="background: #e6e6e8;">
+                    <li><a style="color:black" href="">全部分类</a></li>
+                    <li><a style="color:black" href="">英雄</a></li>
+                    <li><a style="color:black" href="">皮肤</a></li>
+                    <li><a style="color:black" href="">道具</a></li>
+                    <li><a style="color:black" href="">守卫眼皮肤</a></li>
+                    <li><a style="color:black" href="">道具包</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 位置 -->
+        <div class="location">
+            您现在的位置 :
+            <a href="">英雄联盟</a>
+            <
+            <a href="">购物车</a>
+        </div>
+
+        <!-- 购买角色信息 -->
+        <div class="sc_info">
+            <h3>收货角色信息</h3>
+            <div class="span_sel">
+                <span class="fl">选择游戏角色 : </span>
+                <select class="fl" name="" id="">
+                    <option value="">请选择大区</option>
+                    <option value="">艾欧尼亚</option>
+                    <option value="">艾欧尼亚</option>
+                    <option value="">艾欧尼亚</option>
+                    <option value="">艾欧尼亚</option>
+                    <option value="">艾欧尼亚</option>
+                    <option value="">艾欧尼亚</option>
+                </select>
+                <select class="fl" name="" id="">
+                    <option value="">请选择角色</option>
+                    <option value="">dddddd</option>
+                    <option value="">dddddd</option>
+                    <option value="">dddddd</option>
+                    <option value="">dddddd</option>
+                    <option value="">dddddd</option>
+                </select>
+            </div>
+        </div>
+        <!-- 商品信息 -->
+        <div class="sc_goods">
+            <h3>商品信息</h3>
+            <p class="headP">
+                <span>商品名称</span>
+                <span>类型</span>
+                <span>单价</span>
+                <span>期限</span>
+                <span>数量</span>
+                <span>优惠</span>
+                <span>小计</span>
+                <span>操作</span>
+            </p>
+            <ul class="sc_ul">
+
+                <!-- <li>
+                    <p>
+                        <span>
+                            <img src="../image/buynewgood1.jpg" alt="">
+                            <a href="">驯龙女巫 婕拉</a>
+                        </span>
+                        <span>皮肤</span>
+                        <span>79.00QB</span>
+                        <span>永久</span>
+                        <span style="">
+                            <a href="">-</a> <input type="text" value="1"> <a href="">+</a>
+                        </span>
+                        <span>无优惠</span>
+                        <span>79.00Q币</span>
+                        <span><a class="blue" href="">关注</a><a class="blue" id="delete" href="javascript:;">删除</a></span>
+
+                    </p>
+
+                </li> -->
+            </ul>
+        </div>
+        <!-- 支付 -->
+        <div class="pay">
+            <span class="payl">
+                <span>英雄联盟周边商城火热上线</span>
+                <a href="">查看详情</a>
+            </span>
+            实付款 :
+            <span class="payRed">79.00</span>
+            Q币
+            <div class="payRed2">
+                <a href="javascript:;">提交订单</a>
+            </div>
+        </div>
+        <!-- 支付点击 出现弹窗加蒙版 -->
+        <div class="picNone" style="display:none;position:fixed; left:50%;top:50%;z-index:111112;margin-left:-343px;margin-top:-355px;">
+            <img src="../image/pay.png" alt="">
+        </div>
+        <p class="picNone" style="display:none;width:100%;height:100%;position:fixed;top:0;z-index:111111;background:rgba(0,0,0,0.7)"></p>
+    </div>
+
+    <!-- 底部 -->
+    <div class="foot_area">
+        <div class="bx_qa foot_wrap clearfix">
+            <div class="bx_qa_t1">
+                <h4 class="bx_qa_title">
+                    <s class="i_sp i_new"></s>
+                    我是新手
+                </h4>
+                <ul class="bx_qa_ul c">
+                    <li><a href="" class="btn_c" target="_blank">什么是道聚城</a></li>
+                    <li><a href="" class="btn_c" target="_blank">如何购买</a></li>
+                    <li><a href="" class="btn_c" target="_blank">如何赠送</a></li>
+                    <li><a href="" class="btn_c" target="_blank">如何获取聚豆</a></li>
+                </ul>
+            </div>
+            <div class="bx_qa_t1">
+                <h4 class="bx_qa_title">
+                    <s class="i_sp i_new"></s>
+                    个人中心
+                </h4>
+                <ul class="bx_qa_ul c">
+                    <li><a href="" class="btn_c" target="_blank">发货时间</a></li>
+                    <li><a href="" class="btn_c" target="_blank">如何领取</a></li>
+                    <li><a href="" class="btn_c" target="_blank">补发规则</a></li>
+                    <li><a href="" class="btn_c" target="_blank">Vip价定义</a></li>
+                    <li><a href="" class="btn_c" target="_blank">道具状态定义</a></li>
+                </ul>
+            </div>
+            <div class="bx_qa_t1">
+                <h4 class="bx_qa_title">
+                    <s class="i_sp i_new"></s>
+                    支付方式
+                </h4>
+                <ul class="bx_qa_ul c">
+                    <li><a href="" class="btn_c" target="_blank">支付方式</a></li>
+                    <li><a href="" class="btn_c" target="_blank">购物点支付</a></li>
+                    <li><a href="" class="btn_c" target="_blank">如何充值</a></li>
+                </ul>
+            </div>
+            <div class="bx_qa_t1">
+                <h4 class="bx_qa_title">
+                    <s class="i_sp i_new"></s>
+                    腾讯在线服务
+                </h4>
+                <ul class="bx_qa_ul c">
+                    <li><a href="" class="btn_c" target="_blank">腾讯官方在线客服</a></li>
+                </ul>
+            </div>
+            <div class="bx_qa_t1 bx_qa_code bx_qa_last">
+                <ul class="bx_qa_ul c">
+                    <li>
+                        <div class="foot-codeimg">
+                            <img src="../image/zsdjc.png" alt="">
+                        </div>
+                        <p class="foot-codename">
+                            掌上道聚城
+                        </p>
+                    </li>
+                    <li>
+                        <div class="foot-codeimg">
+                            <img src="../image/wechatdjc.png" alt="">
+                        </div>
+                        <p class="foot-codename">
+                            道聚城公众号
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot_wrap">
+            <div id="footer_ied">
+                <div class="wrap_ied">
+                    <p>
+                        <a href="" target="_blank">腾讯互动娱乐</a>   |
+                        <a href="" target="_blank">服务条款</a>   |
+                        <a href="" target="_blank">广告服务</a>  |
+                        <a href="" target="_blank">腾讯游戏招聘</a>  |
+                        <a href="" target="_blank">腾讯游戏客服</a>  |
+                        <a href="" target="_blank">游戏地图</a>  |
+                        <a href="" target="_blank">游戏活动</a>  |
+                        <a href="" target="_blank">成长守护平台</a>  |
+                        <a href="" target="_blank">商务合作</a>  |
+                        <a href="" target="_blank">网站导航</a>
+                    </p>
+                    <p class="e">COPYRIGHT © 1998 – 2018 TENCENT. ALL RIGHTS RESERVED.</p>
+                    <p>
+                        <a href="" target="_blank">腾讯公司 版权所有</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="loginDiv" style="height: 368px; width: 622px; border: 0px none; padding: 0px; margin: 0px 0px 0px -311px; position: absolute; z-index: 100002; top: 50px; left: 50%; visibility: visible;" role="dialog" tabindex="-1">
+            <div id="login" class="login" style="height: 364px;">
+                <div class="header">
+                    <a href="" id="close" href="javascript:void(0);" tabindex="14"></a>
+                </div>
+                <div id="web_qr_login" class="web_qr_login" style="display: block;">
+                    <div id="web_qr_login_show" class="web_qr_login_show">
+                        <div id="web_login" class="web_login">
+                            <div id="tips" class="tips">
+                                <div id="title_2" class="title">帐号密码登录</div>
+                                <div id="qlogin_entry">
+                                    推荐使用
+                                    <a href="" id="switcher_qlogin" class="switch_btn_focus link_tips" hidefocus="true" href="javascript:void(0)">快速安全登录</a>
+                                    ,防止盗号
+                                </div>
+                            </div>
+                            <div></div>
+                            <div class="login_form">
+                                <form id="loginform" autocomplete="off" name="loginform" method="post"  style="margin:0px">
+                                    <div id="uinArea" class="uinArea">
+                                        <label for="u" id="uin_tips" class="input_tips"  style="display: block;">支持QQ号/邮箱/手机号登录</label>
+                                        <div class="inputOuter">
+                                            <input type="text" id="u" class="inputstyle" name="u" tabindex="1">
+                                        </div>
+                                    </div>
+                                    <div id="pwdArea" class="pwdArea">
+                                        <label for="p" id="pwd_tips" class="input_tips">密码</label>
+                                        <div class="inputOuter">
+                                            <input type="password" id="p" class="inputstyle password" name="p" value="" maxlength="16" tabindex="2" type="password">
+                                        </div>
+                                    </div>
+                                    <div class="submit">
+                                        <a class="login_button" href="javascript:;" hidefocus="true">
+                                            <input id="login_button" class="btn"  tabindex="6" value="登 录" type="button">
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="bottom_web" class="bottom" style="display: block;">
+                            <a href="" id="forgetpwd" class="link" target="_blank">忘了密码</a>
+                            <span class="dotted">|</span>
+                            <a href="register.html" class="link" target="_blank">注册新账号</a>
+                            <span class="dotted">|</span>
+                            <a href="" id="feedback_web" class="link" target="_blank" >意见反馈</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="_overlay_" style="background-color: rgb(230, 245, 255); border-top: 1px solid rgb(230, 245, 255); position: absolute; height: 2645px; z-index: 100001; width: 100%; left: 0px; top: 0px; opacity: 0.7; "></div>
+    </div>
+</body>
+</html>

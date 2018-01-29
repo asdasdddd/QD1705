@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.gray {
+  color: #555; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.blue {
+  color: #1c8bde; }
+
+.layout, .mainnav, .searchbox, .mainmenu, .sonmenu, .mainer {
+  width: 1190px;
+  margin: 0 auto; }
+
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #2e2e2e;
+  background: #f3f4f6; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul {
+  list-style: none; }
+
+.fixednav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2000;
+  margin: 0 20px 215px 0; }
+
+.fixednav a {
+  display: block;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  width: 68px;
+  padding: 7px 0;
+  text-align: center;
+  margin-top: 3px; }
+
+.fixednav a:hover {
+  background: #36ab87;
+  color: #fff;
+  text-decoration: none;
+  border-color: #36ab87; }
+
+.fixednav i.btn_top {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-position: -122px -153px;
+  margin: 0 auto; }
+
+.fixednav a:hover i.btn_top {
+  background-position: -162px -153px; }
+
+.bg_sp {
+  background: url(../image/bg.png) no-repeat;
+  _background: url(../image/bg.png) no-repeat; }
+
+.pageWrap {
+  overflow: hidden;
+  width: 100%;
+  background: #f3f4f6 url(../image/bg-index.jpg) no-repeat top center;
+  /*background-size:100%;*/ }
+
+.contwrap {
+  /*width: 100%;*/
+  background: url("../image/cont-index.jpg") no-repeat;
+  background-size: 100%;
+  /*width: 100%;*/
+  height: 2000px; }
+
+.mainnav {
+  /*background: red;*/
+  height: 29px;
+  position: relative; }
+
+.mainnav .left {
+  float: left; }
+
+.mainnav .left li {
+  float: left; }
+
+.mainnav li a {
+  /*display: block;*/
+  color: #9f9f9f;
+  line-height: 30px;
+  padding: 0 8px;
+  border-right: 1px solid #27302E; }
+
+.mainnav .left li:nth-of-type(4) a {
+  border: 0; }
+
+.mainnav li a:hover {
+  text-decoration: underline; }
+
+.mainnav .right {
+  width: 520px;
+  float: right; }
+
+.mainnav .right li {
+  /*line-height: 30px;*/
+  color: #9f9f9f;
+  float: left;
+  /*padding: 0 10px;*/ }
+
+.mainnav .right li a {
+  color: #9f9f9f; }
+
+.mainnav .right span {
+  display: inline-block;
+  width: 11px;
+  height: 13px;
+  background: url(../image/indexico.png) no-repeat -42px -275px;
+  margin: 0 0 0 12px; }
+
+.mainnav .right li:last-child a {
+  border: 0; }
+
+#gameLinone {
+  display: none;
+  width: 800px;
+  /*height: 250px;*/
+  background: white;
+  position: absolute;
+  right: 28px;
+  top: 30px;
+  padding: 8px; }
+
+#gameLinone ul {
+  float: left; }
+
+#gameLinone .ul1 {
+  width: 300px;
+  border-top: 1px solid #D6D6D6; }
+
+#gameLinone .ul2 {
+  width: 200px;
+  border-top: 1px solid #D6D6D6; }
+
+#gameLinone .ul3 {
+  width: 100px;
+  border-top: 1px solid #D6D6D6; }
+
+#gameLinone .ul4 {
+  width: 200px;
+  border-top: 1px solid #D6D6D6; }
+
+#gameLinone .ul1 li {
+  /*float: left;*/
+  box-sizing: border-box;
+  width: 100px;
+  /*border:1px solid #D8D8D8;*/
+  padding: 0 5px;
+  border-bottom: 1px solid #D6D6D6;
+  border-left: 1px solid #D6D6D6; }
+
+#gameLinone .ul2 li {
+  /*float: left;*/
+  box-sizing: border-box;
+  width: 100px;
+  /*border:1px solid #D8D8D8;*/
+  padding: 0 5px;
+  border-bottom: 1px solid #D6D6D6;
+  border-left: 1px solid #D6D6D6; }
+
+#gameLinone .ul3 li {
+  /*float: left;*/
+  box-sizing: border-box;
+  width: 100px;
+  /*border:1px solid #D8D8D8;*/
+  padding: 0 5px;
+  border-bottom: 1px solid #D6D6D6;
+  border-left: 1px solid #D6D6D6; }
+
+#gameLinone .ul4 li {
+  /*float: left;*/
+  box-sizing: border-box;
+  width: 100px;
+  /*border:1px solid #D8D8D8;*/
+  padding: 0 5px;
+  border-bottom: 1px solid #D6D6D6;
+  border-left: 1px solid #D6D6D6; }
+
+#gameLinone .ul2 li:nth-of-type(2n), #gameLinone .ul3 li, #gameLinone .ul4 li {
+  border-left: 0; }
+
+#gameLinone .ul2 li:nth-of-type(2n+1), #gameLinone .ul3 li, #gameLinone .ul4 li {
+  border-right: 1px solid #D6D6D6; }
+
+#gameLinone span {
+  background: none; }
+
+#gameLinone .ul1 li:nth-of-type(3n+1) {
+  border-right: 1px solid  #D6D6D6; }
+
+#gameLinone .ul1 li:nth-of-type(1) {
+  font-weight: 800;
+  width: 300px; }
+
+#gameLinone .ul2 li:nth-of-type(1) {
+  font-weight: 800;
+  width: 200px;
+  border-left: 0; }
+
+#gameLinone .ul3 li:nth-of-type(1) {
+  font-weight: 800;
+  width: 100px;
+  border-left: 0; }
+
+#gameLinone .ul4 li:nth-of-type(1) {
+  font-weight: 800;
+  width: 200px;
+  border-left: 0; }
+
+#gameLinone ul li:nth-of-type(1) {
+  line-height: 30px;
+  color: #1D90C6; }
+
+#gameLinone ul li:nth-of-type(1) span {
+  color: #B9B9BB; }
+
+#gameLinone ul li a {
+  padding: 0;
+  color: #404040; }
+
+.searchbox {
+  height: 96px;
+  overflow: hidden;
+  /*border: 1px solid red;*/ }
+
+.searchbox .logobox {
+  margin-top: 23px;
+  width: 280px;
+  height: 52px;
+  float: left; }
+
+.searchbox .logobox a {
+  background: url("../image/navico.png") no-repeat -670px -5px;
+  display: block;
+  text-indent: -9999em;
+  width: 280px;
+  height: 52px; }
+
+.searchbox .navico {
+  margin: 23px 65px 0 100px;
+  width: 522px;
+  height: 51px;
+  float: left;
+  background: url("../image/navico.png") no-repeat -999px 0;
+  position: relative; }
+
+#navico_btn {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  z-index: 2;
+  width: 49px;
+  height: 46px;
+  background: url("../image/navico.png") no-repeat;
+  background-position: -1558px 0;
+  text-indent: -9999px;
+  display: block;
+  cursor: pointer;
+  border: none;
+  outline: none; }
+
+#navico_input {
+  float: left;
+  margin: 1px 0 0 6px;
+  width: 450px;
+  padding: 14px 10px 15px 10px;
+  height: 18px;
+  line-height: 18px;
+  border: 0;
+  color: #9f9f9f;
+  font-size: 14px;
+  background: none; }
+
+#navico_input:hover {
+  color: #cfcfcf; }
+
+.searchbox .logogame a {
+  display: block;
+  margin-top: 23px;
+  width: 223px;
+  height: 59px;
+  display: block;
+  text-indent: -9999em;
+  background: url("../image/navico.png") no-repeat;
+  background-position: -437px -5px;
+  float: left; }
+
+.mainmenu {
+  /*border: 1px solid red;*/
+  height: 76px;
+  position: relative;
+  /*background: url("../image/navico.png") no-repeat;*/
+  /*background-position:  -5px -187px;*/ }
+
+.mainmenu ul {
+  overflow: hidden;
+  width: 940px;
+  height: 76px;
+  position: relative;
+  float: left;
+  /*border: 1px solid red;*/ }
+
+.mainmenu ul li {
+  float: left;
+  width: 134px;
+  height: 76px; }
+
+.mainmenu ul li:nth-of-type(1) {
+  background: url("../image/navico.png") no-repeat;
+  background-position: -275px -5px; }
+
+.mainmenu ul li a {
+  width: 134px;
+  height: 76px;
+  display: block;
+  text-align: center;
+  line-height: 76px;
+  font-size: 18px;
+  color: #9f9f9f;
+  position: relative; }
+
+.mainmenu ul li:nth-of-type(1) a {
+  font-weight: bold;
+  color: #fef7ec;
+  text-shadow: 1px 3px 3px #bf4d00; }
+
+.mainmenu ul li:not(.nonehover) a:hover {
+  color: #ff5900; }
+
+.mainmenu .shoppingcar {
+  float: right;
+  width: 192px;
+  height: 76px;
+  /*color: #ff5900;*/
+  /*text-indent: 18px;*/
+  line-height: 76px;
+  text-align: center;
+  font-size: 18px;
+  position: relative; }
+
+.mainmenu .shoppingcar a {
+  color: #ff5900; }
+
+.mainmenu .shoppingcar i {
+  font-style: normal;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  z-index: 10;
+  width: 60px;
+  height: 76px;
+  line-height: 76px;
+  text-align: center;
+  font-size: 18px;
+  display: block;
+  overflow: hidden;
+  text-indent: 0; }
+
+.mainmenu .shoppingcar s {
+  position: absolute;
+  top: 27px;
+  left: 36px;
+  z-index: 10;
+  width: 28px;
+  height: 24px;
+  display: block;
+  background: url("../image/navico.png") no-repeat;
+  background-position: -237px -5px; }
+
+.sonmenu {
+  min-height: 48px;
+  position: relative;
+  /*border: 1px solid red;*/ }
+
+.sonmenu ul {
+  height: 48px;
+  line-height: 48px;
+  /*height: 55px;*/
+  overflow: hidden; }
+
+.sonmenu ul li {
+  width: 118px;
+  float: left;
+  text-align: center; }
+
+.sonmenu ul li:nth-of-type(1) {
+  width: 152px; }
+
+.sonmenu ul li a {
+  display: block;
+  font-size: 14px;
+  color: #9f9f9f;
+  height: 48px; }
+
+.sonmenu ul li:nth-of-type(1) a {
+  width: 152px; }
+
+.sonmenu ul li a:hover {
+  color: #fff; }

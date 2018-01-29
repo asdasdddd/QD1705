@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/register-min.css">
+        <script type="text/javascript" src="js/require.js" async="true" defer data-main="js/main"></script>
+        <script src="js/jquery-1.11.3.js"></script>
+        <script scr="js/jquery.cookie.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+    </head>
+    <body>
+        <!-- 注册样式用bootstrap布局 -->
+        <div class="container-fluid">
+            <a  class="logo" href="javascript:void(0)">QQ</a>
+            <div class="row">
+                <div class="col col-lg-4" id="picSlide" ></div>
+                <div class="col col-lg-7 col-lg-push-5 main-wraper">
+                    <ul class="top">
+                        <li class="item feedback"><a href="javascript:void(0)">意见反馈</a></li>
+                        <li class="item language-entry"><a href="javascript:void(0)">简体中文</a></li>
+                        <li class="item mail-entry"><a href="javascript:void(0)">邮箱帐号</a></li>
+                        <li class="item lianghao">
+                            <a class="lianghao-entry" href="javascript:void(0)">
+                                <div>QQ靓号</div>
+                                <img src="../image/logo3.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="col col-lg-10 pdl">
+                        <h3 class="">欢迎注册QQ</h3>
+                        <h4>每一天,乐在沟通<a href="">免费靓号</a></h4>
+                        <form action="" method="post" class="col col-lg-10">
+                            <div style="position:relative;">
+                                <input id="blur1" type="text" class="form-control" placeholder="昵称" name="username">
+                                <div class="input-ok" ></div>
+                            </div>
+                            <p class="unameEr">昵称不可以为空</p>
+                            <div style="position:relative;">
+                                <input id="blur2" type="password" class="form-control" placeholder="密码" name="password">
+                                <div class="input-ok" ></div>
+                            </div>
+                            <p class="psdEr1">密码不能为空</p>
+                            <p class="psdEr2">长度为8-16个字符</p>
+                            <p class="psdEr3">必须包含字母,数字,符号中至少两种</p>
+                            <p class="psdEr4">不能包括空格</p>
+                            <div style="position:relative;">
+                                <input id="blur3" type="text" class="form-control" placeholder="手机号码" name="phone">
+                                <div class="input-ok" ></div>
+                            </div>
+                            <p class="phoneEr1">请填写手机号</p>
+                            <p class="phoneEr2">手机号填写错误</p>
+                            <a  id="submit"  class="btn btn-primary form-control submit" href="index.html" >
+                                立即注册
+                               <!--  <input id="submit" type="submit" class="btn btn-primary form-control submit" value="立即注册"> -->
+                            </a>
+
+                            <span>
+                                <input type="checkbox" checked>
+                                同时开通QQ空间
+                            </span>
+                            <span>
+                                <input type="checkbox" checked>
+                                我已阅读并同意相关服务条款和隐私政策
+                            </span>
+                        </form>
+                    </div>
+                    <div class="col col-lg-10 foot">Copyright © 1998-2018Tencent All Rights Reserved</div>
+                </div>
+
+
+            </div>
+        </div>
+    </body>
+</html>
